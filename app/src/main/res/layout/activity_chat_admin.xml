@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/messagesRecylerView"
+        android:layout_width="wrap_content"
+        android:layout_height="561dp"
+        android:layout_marginTop="4dp"
+        android:layout_x="2dp"
+        android:layout_y="71dp"
+        app:layout_constraintBottom_toTopOf="@+id/messageTextField"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/absoluteLayout3"
+        app:layout_constraintVertical_bias="0.0"
+        tools:listitem="@layout/item_message2" />
+
+    <EditText
+        android:id="@+id/messageTextField"
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="50dp"
+        android:layout_x="41dp"
+        android:layout_y="24dp"
+        android:background="@drawable/stylo_borde_editext"
+        android:backgroundTint="@color/gris"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/sendMessageButton"
+        android:layout_width="44dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="44dp"
+        android:layout_x="357dp"
+        android:layout_y="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/messageTextField"
+        app:srcCompat="@drawable/boton_chat_admin" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="19dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="56dp"
+        android:layout_x="13dp"
+        android:layout_y="28dp"
+        android:onClick="Opciones"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/messageTextField"
+        app:srcCompat="@drawable/boton_mas_naranja" />
+
+    <AbsoluteLayout
+        android:id="@+id/absoluteLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:layout_x="0dp"
+            android:layout_y="0dp"
+            android:background="#E49D5C" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="29dp"
+            android:layout_height="33dp"
+            android:layout_x="14dp"
+            android:layout_y="16dp"
+            android:onClick="BotonRegresar"
+            app:srcCompat="@drawable/boton_regresr_blanco" />
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="59dp"
+            android:layout_height="53dp"
+            android:layout_x="290dp"
+            android:layout_y="5dp"
+            android:backgroundTint="@color/naranja"
+            app:srcCompat="@drawable/boton_videollamada" />
+
+    </AbsoluteLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

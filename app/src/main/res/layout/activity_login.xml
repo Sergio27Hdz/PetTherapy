@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="502dp"
+        android:fontFamily="@font/roboto_light"
+        android:gravity="center"
+        android:onClick="forgotpassword"
+        android:text="@string/forgot_password"
+        android:textColor="#000139"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="38dp"
+        android:layout_height="39dp"
+        android:layout_x="37dp"
+        android:layout_y="355dp"
+        app:srcCompat="@drawable/candado" />
+
+    <LinearLayout
+        android:layout_width="38dp"
+        android:layout_height="50dp"
+        android:layout_x="37dp"
+        android:layout_y="280dp"
+        android:background="@drawable/usuario"
+        android:orientation="vertical"></LinearLayout>
+
+    <Button
+        android:layout_width="290dp"
+        android:layout_height="36dp"
+        android:layout_x="44dp"
+        android:layout_y="432dp"
+        android:background="@drawable/stylo_borde_editext"
+        android:fontFamily="@font/roboto_light"
+        android:gravity="center"
+        android:onClick="loggin"
+        android:text="@string/login_button"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:backgroundTint="#F3943C" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_x="2dp"
+        android:layout_y="220dp"
+        android:fontFamily="@font/roboto_light"
+        android:gravity="center"
+        android:text="@string/login"
+        android:textColor="#545454"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/txtContraseña"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_x="79dp"
+        android:layout_y="355dp"
+        android:backgroundTint="@android:color/transparent"
+        android:ems="10"
+        android:fontFamily="@font/roboto_light"
+        android:gravity="center|left"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textColor="#545454"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_x="79dp"
+        android:layout_y="287dp"
+        android:backgroundTint="@android:color/transparent"
+        android:ems="10"
+        android:fontFamily="@font/roboto_light"
+        android:gravity="center|left"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:textColor="#545454"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="231dp"
+        android:layout_y="545dp"
+        android:fontFamily="@font/roboto_light"
+        android:onClick="menuregistro"
+        android:text="@string/registerhere_text"
+        android:textColor="#F3943C"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="49dp"
+        android:layout_y="545dp"
+        android:fontFamily="@font/roboto_light"
+        android:text="@string/havent_accounttext"
+        android:textColor="#000139"
+        android:textSize="15sp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="60dp"
+        android:layout_height="58dp"
+        android:indeterminate="true"
+        android:layout_x="177dp"
+        android:layout_y="518dp"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="403dp"
+        android:layout_x="-1dp"
+        android:layout_y="0dp"
+        android:background="@drawable/registro"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="39dp"
+        android:layout_height="27dp"
+        android:layout_x="318dp"
+        android:layout_y="6dp"
+        android:onClick="changeLanguageEN"
+        app:srcCompat="@mipmap/eua_ico" />
+
+    <ImageView
+        android:layout_width="39dp"
+        android:layout_height="27dp"
+        android:layout_x="281dp"
+        android:layout_y="6dp"
+        android:onClick="changeLanguageES"
+        app:srcCompat="@mipmap/mex_ico" />
+
+</AbsoluteLayout>

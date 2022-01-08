@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pet Therapy</string>
+    <string name="login">Login</string>
+    <string name="email">User or Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="login_button">LOGIN</string>
+    <string name="havent_accounttext">You don´t have an account?</string>
+    <string name="registerhere_text">Register Here</string>
+    <string name="registertext">Register</string>
+    <string name="name_text">Name</string>
+    <string name="last_name_text">Last Name</string>
+    <string name="phone_text">Phone</string>
+    <string name="confirm_password_text">Confirm your password</string>
+    <string name="create_account_text">Create account</string>
+    <string name="toast_confirm_password">Passwords do not match</string>
+    <string name="toast_send_email">Email sent</string>
+    <string name="toast_not_send_email">Error sending mail</string>
+    <string name="message_recovery_text">Password recovery</string>
+    <string name="enter_your_email_message">Enter your email to reset your password</string>
+    <string name="send_button">SEND</string>
+    <string name="toast_error_auth_message">Authentication failed</string>
+    <string name="check_box_text">Register as admin</string>
+    <string name="yes_message">Admin</string>
+    <string name="no_message">User</string>
+    <string name="show_name">Name  Last Name</string>
+    <string name="biblio_admin">Optional Bibliography</string>
+    <string name="chat_with_message">Chat with </string>
+    <string name="user_not_found">User not found error</string>
+    <string name="block_user_title">Block user</string>
+    <string name="user_block_message">Do you want to block this user?</string>
+    <string name="please_user_block">Error sending message</string>
+    <string name="unblock_user_title">Unlock user</string>
+    <string name="user_unblock_message">Do you want to unblock this user?</string>
+    <string name="error_button">You do not have the permissions for this action</string>
+    <string name="cancelo_llamada">Canceled the call</string>
+    <string name="error_al_conectar_llamada">Failed to connect the call, please try again</string>
+    <string name="llamando">Calling</string>
+    <string name="welcome_message_admin_title">Welcome to Pet Therapy App</string>
+    <string name="welcome_message_admin">This app will help your organization to get in touch with different customers that sign up to this app and that need some kind of therapy.
+That is why we manage different tools so you and the customer reach an agreement in the matter of a remote visit enabling the use of chat or even videocalls.</string>
+    <string name="welcome_message">This app will be useful for you to find different organizations that offer their services for emotional support animals and for which you can contact  through different means such as chat or video call. We know perfectly well that a emotional support animal can be very useful to raise the mood and at the same time we perfectly know your concern for the care of animals, so we can ensure that all the organizations that are register on this app do a correct care of animals.</string>
+    <string name="new_person_chat">Add person to chat</string>
+    <string name="add_button">Add</string>
+    <string name="search_text">Search</string>
+    <string name="choose_option_admin">Choose an option</string>
+    <string name="option_send_image">Send image</string>
+    <string name="option_add_person">Add people to the chat</string>
+    <string name="option_block_person">Block user</string>
+    <string name="close_app">Close app</string>
+    <string name="question_close_app">Do you want to close the app?</string>
+    <string name="option_admin_title">Administrator Option</string>
+    <string name="option_admin">This kind of account allows you to share information about pets of your therapy center.</string>
+    <string name="option_admin2">Do you want to choose this option?</string>
+    <string name="option_user_title">User option</string>
+    <string name="option_user">This kind of account allows you to obtain information about pets of therapy centers.</string>
+    <string name="option_user2">Do you want to choose this option?</string>
+
+</resources>

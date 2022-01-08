@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="200dp"
+        android:layout_y="580dp"
+        android:fontFamily="@font/roboto_light"
+        android:onClick="CheckBoxClicked2"
+        android:text="@string/no_message"
+        android:textColor="@color/orange" />
+
+    <EditText
+        android:id="@+id/txtConfirmarContraseña"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_x="15dp"
+        android:layout_y="505dp"
+
+        android:background="@drawable/stylo_borde_editext"
+        android:backgroundTint="@color/gris"
+        android:ems="0"
+        android:fontFamily="@font/roboto_light"
+        android:gravity="center"
+        android:hint="@string/confirm_password_text"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/txtTelefono"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_x="15dp"
+        android:layout_y="335dp"
+        android:background="@drawable/stylo_borde_editext"
+        android:backgroundTint="@color/gris"
+        android:ems="10"
+        android:fontFamily="@font/roboto_light"
+        android:gravity="center"
+        android:hint="@string/phone_text"
+        android:inputType="phone" />
+
+
+    <EditText
+        android:id="@+id/txtApellido"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_x="15dp"
+        android:layout_y="274dp"
+        android:background="@drawable/stylo_borde_editext"
+        android:backgroundTint="@color/gris"
+        android:ems="10"
+        android:fontFamily="@font/roboto_light"
+        android:gravity="center"
+        android:hint="@string/last_name_text"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_x="15dp"
+        android:layout_y="214dp"
+        android:background="@drawable/stylo_borde_editext"
+        android:backgroundTint="@color/gris"
+        android:ems="10"
+        android:fontFamily="@font/roboto_light"
+        android:gravity="center"
+        android:hint="@string/name_text"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="317dp"
+        android:layout_height="45dp"
+        android:layout_x="15dp"
+        android:layout_y="393dp"
+        android:background="@drawable/stylo_borde_editext"
+        android:backgroundTint="@color/gris"
+
+        android:ems="10"
+        android:fontFamily="@font/roboto_light"
+        android:gravity="center"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:orientation="vertical"
+        android:padding="5dp" />
+
+    <EditText
+        android:id="@+id/txtContraseña"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_x="15dp"
+        android:layout_y="447dp"
+        android:background="@drawable/stylo_borde_editext"
+        android:backgroundTint="@color/gris"
+        android:ems="0"
+        android:fontFamily="@font/roboto_light"
+        android:gravity="center"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+
+
+    <Button
+        android:layout_width="243dp"
+        android:layout_height="36dp"
+        android:layout_x="54dp"
+        android:layout_y="630dp"
+        android:background="@drawable/stylo_borde_editext"
+        android:fontFamily="@font/roboto_light"
+        android:onClick="register"
+        android:text="@string/create_account_text"
+        android:textColor="@android:color/white"
+        app:backgroundTint="#F3943C" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="413dp"
+        android:layout_x="-1dp"
+        android:layout_y="0dp"
+        android:background="@drawable/registro"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cerrar"
+            android:onClick="BotonLOGIN"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/imageView2"
+        android:layout_width="33dp"
+        android:layout_height="27dp"
+        android:layout_x="318dp"
+        android:layout_y="15dp"
+        android:background="@mipmap/eua_ico"
+        android:onClick="changeLanguageEN"
+        android:orientation="vertical"
+        android:padding="5dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="183dp"
+        android:layout_y="416dp"
+        android:indeterminate="true"
+        android:visibility="gone" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="51dp"
+        android:layout_y="580dp"
+        android:fontFamily="@font/roboto_light"
+        android:onClick="CheckBoxClicked"
+        android:text="@string/yes_message"
+        android:textColor="@color/orange" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_x="15dp"
+        android:layout_y="156dp"
+        android:fontFamily="@font/roboto_light"
+        android:gravity="center"
+        android:text="@string/registertext"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:id="@+id/imageView"
+        android:layout_width="33dp"
+        android:layout_height="27dp"
+        android:layout_x="281dp"
+        android:layout_y="15dp"
+        android:background="@mipmap/mex_ico"
+        android:onClick="changeLanguageES"
+        android:orientation="vertical"
+        android:padding="5dp" />
+
+</AbsoluteLayout>
